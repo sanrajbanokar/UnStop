@@ -1,0 +1,11 @@
+<p>booking works!</p>
+<button>Click Me</button>
+<div class="container">
+    <!-- {{coachDetails}} -->
+    
+    <div class="row" [ngStyle]="{backgroundColor: seat.isOccupied? 'aquamarine': 'mistyrose'}" *ngFor="let seat of coach">
+        <div class="seat">
+            <p>Seat Number: {{seat.seatNumber}}</p>
+        </div>
+    </div>
+</div>
