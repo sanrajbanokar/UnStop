@@ -1,10 +1,23 @@
-.seat{
-    height: 20px;
+.container {
     width: 100%;
+    align-items: center;
+}
+.seat{
+    height: 50px;
+    width: 100%;
+    text-align: center;
 }
 
 .row{
-    width:8%;
+    margin: 5px;
+    width:13%;
+}
+.main-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    width:100%
 }
 
 
